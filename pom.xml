@@ -26,12 +26,12 @@
         <dependency>
             <groupId>org.jetbrains.research</groupId>
             <artifactId>kfg</artifactId>
-            <version>0.0.9-2</version>
+            <version>0.0.13</version>
         </dependency>
         <dependency>
             <groupId>ru.spbstu</groupId>
             <artifactId>SymKt</artifactId>
-            <version>0.0.0.1</version>
+            <version>0.0.0.2</version>
         </dependency>
 
         <dependency>
@@ -79,18 +79,11 @@
 
     <repositories>
         <repository>
-            <id>bintray-vorpal-research-kotlin-maven</id>
+            <id>github-vorpal-research-kotlin-maven</id>
             <name>vorpal-research-kotlin-maven</name>
-            <url>https://dl.bintray.com/vorpal-research/kotlin-maven</url>
+            <url>https://maven.vorpal-research.science</url>
         </repository>
     </repositories>
 
-    <distributionManagement>
-        <repository>
-            <id>bintray-vorpal-research-kotlin-maven</id>
-            <name>vorpal-research-kotlin-maven</name>
-            <url>https://api.bintray.com/maven/vorpal-research/kotlin-maven/kfg/;publish=1</url>
-        </repository>
-    </distributionManagement>
 
 </project>
